@@ -77,10 +77,7 @@ const generateToken = (id) => {
 }
 
 module.exports = {
-    getUsers,
     getMe,
     registerUser,
-    loginUser,
-    updateUser,
-    deleteUser
+    loginUser
 }
